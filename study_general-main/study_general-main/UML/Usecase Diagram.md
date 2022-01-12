@@ -11,11 +11,11 @@
 
 ### 1. 개념
 
-
-
 * 의미: 사용자(User)의 관점에서 시스템의 활동을 표현
 * 목적: 외부에서 본 시스템의 기능을 표현하므로, 실제 내부 비즈니스 로직보다는 사용자의 요구사항 분석을 위한 도구로 활용
 * 특징: 사용자와 시스템 사이의 상호작용에 집중
+  > Q. 작성시기는 언제?
+  >> 유스케이스 다이어그램 작성을 통해 서비스 구체화, 요구사항 선별이 가능하므로 보통 **요구사항 식별과정**에 사용  
 
 ### 2. 구성요소
 :round_pushpin: **`(1) 액터(Actor)`**
@@ -25,8 +25,7 @@
 
 2. 특징: 액터는 반드시 하나 이상의 유스케이스와 상호작용
     - 개인이나 사물을 특정하여 지정 X 
-    - 다우기술 법무팀 홍길동 팀장(X) → 고객사(O)
-
+    
 3. 종류
  (1) 프라이머리 액터(Primary Actor)
    - 의미: 시스템 사용 주체가 되는 액터
@@ -38,6 +37,8 @@
    - 표기: <<actor>>라고 명시
    - 위치: 시스템 오른쪽
 ```
+![액터](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%95%A1%ED%84%B0.png)
+![액터2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%95%A1%ED%84%B02.png)
 
 :round_pushpin:  **`(2) 유스케이스(Usecase)`**
 ```
@@ -46,6 +47,7 @@
 
 2. 표기: 타원형으로 도식화
 ```
+![유스케이스](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4.png)
 
 :round_pushpin:  **`(3) 관계(Relationship)`**
 ```
@@ -71,6 +73,9 @@
    - 부모 유스케이스-자식 유스케이스 간 상속관계를 의미
    - 실선 화살표
 ```
+
+![관계](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EA%B4%80%EA%B3%84.png)
+
 > Q. 일반화관계 vs 확장관계의 차이점?
 > > [일반화관계] 자식 유스케이스는 부모 유스케이스의 속성을 모두 상속 ☞ 부모 유스케이스가 해당되는 모든 포함관계, 확장관계를 만족시켜야 함
 > >> [확장관계] 해당 유스케이스는 기존 유스케이스의 속성을 모두 상속 X ☞ 기존 유스케이스의 관계를 만족시킬 필요 X
@@ -98,6 +103,8 @@
 - 특정 조건에서 활성화되는 유스케이스 추출
 
 ### 4. 작성예시
+
+![예시](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%98%88%EC%8B%9C.png)
 ### 5. 유의사항
 ```
 - 흐름도가 아니므로, 기능이 구현되는 순서대로 작성X
