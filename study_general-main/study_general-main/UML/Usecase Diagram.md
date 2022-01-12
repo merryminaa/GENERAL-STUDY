@@ -105,6 +105,11 @@
 ### 4. 작성예시
 
 ![예시](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%98%88%EC%8B%9C.png)
+
+![예시2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%98%88%EC%8B%9C2.png)
+
+![예시3](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%98%88%EC%8B%9C3.png)
+
 ### 5. 유의사항
 ```
 - 흐름도가 아니므로, 기능이 구현되는 순서대로 작성X
@@ -115,6 +120,14 @@
 - 의미: 다이어그램만으로 설명이 부족한 시스템과의 상호작용 과정을 기술하는 문서
 - 요소
    - 유스케이스 이름, 액터 이름, 개요, 사전/사후 조건, 기본 흐름, 대체 흐름(기본 흐름에서 선택적으로 실행되는 흐름)
+
+## 7. 참고: 유스케이스 다이어그램 작성 툴/프로그램
+
+[starUML](http://staruml.io)
+
+[draw.io](https://app.diagrams.net)
+
+[Lucidchart](https://www.lucidchart.com/pages)
 
 
 
