@@ -73,14 +73,14 @@
   ```
   - entry/action() : 특정 상태로 전이되게 만드는 액션을 정의
   - exit/action() : 특정 상태에서 전이되어 나가게 만드는 액션을 정의
-  - do/action() : – 특정 상태에 머물러 있는 한 계속 실행되는 액션을 정의
+  - do/action() : 특정 상태에 머물러 있는 한 계속 실행되는 액션을 정의
   ```
 
 *****
 
 ### 4. 작성예시
 
-![예시](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/state%20machine/%EC%98%88%EC%8B%9C.jpg)
+![예시](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/state%20machine/%EC%98%88%EC%8B%9C.jpg?raw=true)
 
 
 *****
