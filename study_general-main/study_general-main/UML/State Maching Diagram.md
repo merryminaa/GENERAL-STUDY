@@ -3,7 +3,7 @@
 
 :pushpin: UML 다이어그램 종류
 
-![구조도]()
+![구조도](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/state%20machine/UML%EA%B5%AC%EC%A1%B0.png)
 
 <br>
 
@@ -62,7 +62,7 @@
 2. 표기: 속이 채워진 원을 둘러싼 원
 ```
 
-![구성요소]()
+![구성요소](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/state%20machine/%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C.JPG)
 
 <br>
 
@@ -80,19 +80,19 @@
 
 ### 4. 작성예시
 
-![예시]()
+![예시](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/state%20machine/%EC%98%88%EC%8B%9C.jpg)
 
 
 *****
 
 ### 5. 유의사항
-* 설계시 유의점
+:boom: 설계시 유의점
   - 실제로는 수천/수만개의 상태가 필요하므로 단순화
   - 확장 상태 다이어그램 포맷을 사용하여 간략화
     - 일반 상태 다이어그램 => 전체 
     - 확장 상태 다이어그램 => 디테일(독립된 다이어그램으로 상세내용 기술)
 
-![예시2]()
+![예시2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/state%20machine/%EC%98%88%EC%8B%9C2.JPG)
 
 > Q. 상태 다이어그램과 유사한 성격의 다이어그램은?
 > > 활동 다이어그램 & 상태 다이어그램 => 알고리즘의 도식화/설계에 효과적
