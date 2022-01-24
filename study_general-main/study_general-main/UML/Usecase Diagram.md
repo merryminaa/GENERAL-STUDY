@@ -37,8 +37,8 @@
    - 표기: <<actor>>라고 명시
    - 위치: 시스템 오른쪽
 ```
-![액터](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%95%A1%ED%84%B0.png)
-![액터2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%95%A1%ED%84%B02.png)
+![액터](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/usecase/%EC%95%A1%ED%84%B0.png)
+![액터2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/usecase/%EC%95%A1%ED%84%B02.png)
 
 :round_pushpin:  **`(2) 유스케이스(Usecase)`**
 ```
@@ -47,7 +47,7 @@
 
 2. 표기: 타원형으로 도식화
 ```
-![유스케이스](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4.png)
+![유스케이스](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/usecase/%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4.png)
 
 :round_pushpin:  **`(3) 관계(Relationship)`**
 ```
@@ -74,7 +74,7 @@
    - 실선 화살표
 ```
 
-![관계](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EA%B4%80%EA%B3%84.png)
+![관계](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/usecase/%EA%B4%80%EA%B3%84.png)
 
 > Q. 일반화관계 vs 확장관계의 차이점?
 > > [일반화관계] 자식 유스케이스는 부모 유스케이스의 속성을 모두 상속 ☞ 부모 유스케이스가 해당되는 모든 포함관계, 확장관계를 만족시켜야 함
@@ -104,11 +104,11 @@
 
 ### 4. 작성예시
 
-![예시](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%98%88%EC%8B%9C.png)
+![예시](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/usecase/%EC%98%88%EC%8B%9C.png)
 
-![예시2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%98%88%EC%8B%9C2.png)
+![예시2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/usecase/%EC%98%88%EC%8B%9C2.png)
 
-![예시3](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/%EC%98%88%EC%8B%9C3.png)
+![예시3](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/UML/usecase/%EC%98%88%EC%8B%9C3.png)
 
 ### 5. 유의사항
 ```
