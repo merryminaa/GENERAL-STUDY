@@ -7,7 +7,7 @@
 * 종류
   - Gof(Gang of Fout) 디자인 패턴 분류
  
- ![디자인패턴 종류]()
+ ![디자인패턴 종류](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Design%20Pattern/Prototype_1_%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EC%A2%85%EB%A5%98.JPG)
 
 <br>
 
@@ -28,7 +28,7 @@
 
 ### 2. 구현방법
 
- ![작성방법]()
+ ![작성방법](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Design%20Pattern/Prototype_2_%EC%9E%91%EC%84%B1%EB%B0%A9%EB%B2%95.JPG)
 
  ```
 * 복사 대상이 되는 클래스
@@ -106,9 +106,9 @@ public class LawRequestControllerPrototypeTest {
     }
 }
 ``` 
- ![원본]()
+ ![원본](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Design%20Pattern/Prototype_3_%EC%A1%B0%ED%9A%8C%EC%BA%A1%EC%B2%98_%EC%9B%90%EB%B3%B8.JPG)
  
- ![변경]()
+ ![변경](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Design%20Pattern/Prototype_3_%EC%A1%B0%ED%9A%8C%EC%BA%A1%EC%B2%98_%EB%B3%80%EA%B2%BD.JPG)
 
 ### 4. 비고
 * 유사패턴: 팩토리 메서드 패턴(Factory Method Pattern)
