@@ -17,11 +17,11 @@
   - "*기능*"과 "*구현*"을 두 개의 별도 클래스로 작성/연결
 * 목적: 추상화와 구현이 독립적으로 다른 계층구조를 가짐으로써 확장설계 용이
 
-![장단점]()
+![장단점](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Design%20Pattern/bridge_1_%EC%9E%A5%EB%8B%A8%EC%A0%90.png)
 
 ### 2. 구현방법
 
- ![구조]()
+ ![구조](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Design%20Pattern/bridge_2_%EA%B5%AC%EC%A1%B0.png)
 
  ```
 ㅇ Abstraction : 추상 인터페이스 정의
@@ -34,7 +34,7 @@
 
 ### 3. 적용예시
 
- ![구조2]()
+ ![구조2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Design%20Pattern/bridge_3_%EA%B5%AC%EC%A1%B0.jpeg)
 
 
 ``` java
