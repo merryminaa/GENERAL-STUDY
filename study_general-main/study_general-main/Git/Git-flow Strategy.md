@@ -30,9 +30,8 @@
 ### 3. 브랜치 관리
 
  * 브랜치 종류
-:round_pushpin: 1. 메인 브랜치
 
- ![메인브랜치](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/%EB%A9%94%EC%9D%B8%EB%B8%8C%EB%9E%9C%EC%B9%98.png)
+:round_pushpin: 1. 메인 브랜치
 
    1) master 브랜치
 	- 배포 가능한 상태만을 관리
@@ -40,10 +39,15 @@
 	- 다음 배포 건을 개발하는 브랜치
 	- 통합 브랜치 역할, 평소에는 develop 브랜치를 기반으로 개발 진행
 
+ ![메인브랜치](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/%EB%A9%94%EC%9D%B8%EB%B8%8C%EB%9E%9C%EC%B9%98.png)
+
+
+
+<br>
 
 :round_pushpin: 2. 보조 브랜치
 
- ![feature](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/feature.png)
+
 
    3) feature 브랜치
 	- 기능을 개발하는 브랜치로, develop 브랜치(잘 동작하는 기존 개발코드 보관)로부터 새로 변경될 개발코드를 분리하고 각각 보존하는 역할
@@ -54,7 +58,11 @@
 ex) feature/login
 ```
 
- ![release](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/release.png)
+ ![feature](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/feature.png)
+
+
+<br>
+ 
 
    1) release 브랜치
 	- 배포를 위한 최종 버그 수정 등의 개발작업을 수행하는 브랜치
@@ -66,9 +74,12 @@ ex) feature/login
 ```
 ex) release-1
 ```
-  > 
 
- ![hotfix](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/hotfix.png)
+![release](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/release.png)
+
+<br>
+
+
 
    1) hotfix 브랜치
 	- 배포한 버전에서 긴급 수정 필요 시 master 브랜치에서 분리하는 브랜치
@@ -79,8 +90,9 @@ ex) release-1
 ```
 ex) hotfix-1
 ```
-> 
+ ![hotfix](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/hotfix.png)
 
+<br>
 
 ### 4. 기타 브랜치 전략
 * Github-flow
