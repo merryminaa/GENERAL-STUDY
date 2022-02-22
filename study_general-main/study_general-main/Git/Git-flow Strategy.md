@@ -18,8 +18,6 @@
 
 ### 2. 브랜치 구분
 
- ![브랜치구분](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98%EA%B5%AC%EB%B6%84.png)
-
  * 브랜치 구분
    
 ```
@@ -27,17 +25,23 @@
 - 필요에 따라 생성하는 보조 브랜치: feature, hotfix, release
 ```
 
+ ![브랜치구분](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98%EA%B5%AC%EB%B6%84.png)
+
+ <br>
+
 ### 3. 브랜치 관리
 
  * 브랜치 종류
 
-:round_pushpin: 1. 메인 브랜치
+:round_pushpin: (1) 메인 브랜치
 
-   1) master 브랜치
+   1. master 브랜치
+
 	- 배포 가능한 상태만을 관리
-   2) develop 브랜치
+   2. develop 브랜치
+   
 	- 다음 배포 건을 개발하는 브랜치
-	- 통합 브랜치 역할, 평소에는 develop 브랜치를 기반으로 개발 진행
+    - 통합 브랜치 역할, 평소에는 develop 브랜치를 기반으로 개발 진행
 
  ![메인브랜치](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Git/%EB%A9%94%EC%9D%B8%EB%B8%8C%EB%9E%9C%EC%B9%98.png)
 
@@ -45,12 +49,13 @@
 
 <br>
 
-:round_pushpin: 2. 보조 브랜치
+:round_pushpin: (2) 보조 브랜치
 
 
 
-   3) feature 브랜치
-	- 기능을 개발하는 브랜치로, develop 브랜치(잘 동작하는 기존 개발코드 보관)로부터 새로 변경될 개발코드를 분리하고 각각 보존하는 역할
+   3. feature 브랜치
+	
+	- 기능을 개발하는 브랜치로, develop 브랜치(잘 동작하는 기존 개발코드 보관)로부터 새로 변경될 개발코드를 분리하고 각각 보존하는 역할	
 	- 기능 완성시까지 유지하며, 완성 시에는 develop 브랜치로 merge한 뒤 삭제
   > derive from : develop
   >> merge to : develop
@@ -64,7 +69,8 @@ ex) feature/login
 <br>
  
 
-   1) release 브랜치
+   4. release 브랜치
+
 	- 배포를 위한 최종 버그 수정 등의 개발작업을 수행하는 브랜치
 	- QA를 위해 develop 브랜치로부터 release 브랜치 생성
 	- 배포 가능한 상태가 되면 master 브랜치로 병합, 출시된 master 브랜치에 버전 태그 추가
@@ -81,7 +87,8 @@ ex) release-1
 
 
 
-   1) hotfix 브랜치
+   5. hotfix 브랜치
+	
 	- 배포한 버전에서 긴급 수정 필요 시 master 브랜치에서 분리하는 브랜치
 	- hotfix 브랜치에서 작업하는 동안 develop 브랜치에서 작업 동시 진행 가능
 	- hotfix 브랜치에서 이루어진 수정사항은 반드시 develop 브랜치에도 적용하여 문제가 된 부분 처리 필요(develop 브랜치에도 merge)
