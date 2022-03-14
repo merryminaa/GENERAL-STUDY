@@ -14,14 +14,14 @@
   - 스크롤(scroll): 입력이 한쪽 끝으로만 가능하도록 제한한 데크(출력은 양쪽)
   - 셸프(shelf): 출력이 한쪽 끝으로만 가능하도록 제한한 데크(입력은 양쪽)
 
- ![개념]()
+ ![개념](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Material%20Structure/%EA%B0%9C%EB%85%90.jpg?raw=true)
 
 
 ### 2. 메소드(java)
 
 (1) 삽입
   
-![삽입메소드]()  
+![삽입메소드](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Material%20Structure/%EC%82%BD%EC%9E%85%EB%A9%94%EC%86%8C%EB%93%9C.png)  
 ```
 1. addFirst(): front 위치에 element 삽입
   - 용량 초과 시 exception 발생
@@ -34,7 +34,7 @@
 ```
 (2) 삭제(제거 후 리턴)
 
-![삭제메소드]()
+![삭제메소드](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Material%20Structure/%EC%82%AD%EC%A0%9C%EB%A9%94%EC%86%8C%EB%93%9C.png)
 
    
 ```
@@ -52,7 +52,7 @@
 
 (3) 삭제(제거하지 않고 리턴)
   
-![삭제메소드2]()   
+![삭제메소드2](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Material%20Structure/%EC%82%AD%EC%A0%9C%EB%A9%94%EC%86%8C%EB%93%9C2.png)   
 ```
 1. getFirst(): front 위치의 element를 제거하지 않고 리턴
   - 덱이 비어있을 경우 exception 발생
