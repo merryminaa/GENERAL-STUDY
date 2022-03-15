@@ -10,9 +10,7 @@
 * 활용: 데이터를 앞/뒤에서 모두 삽입/삭제할 필요가 있거나 데이터의 크기가 가변적인 경우
 * 장점: 스택과 큐의 연산을 모두 지원하므로 데이터의 삽입/삭제가 빠름
 * 단점: 스택,큐에 비해 비교적 구현이 어렵고, 중간에 삽입/삭제가 어려움
-* 종류
-  - 스크롤(scroll): 입력이 한쪽 끝으로만 가능하도록 제한한 데크(출력은 양쪽)
-  - 셸프(shelf): 출력이 한쪽 끝으로만 가능하도록 제한한 데크(입력은 양쪽)
+
 
  ![개념](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Material%20Structure/%EA%B0%9C%EB%85%90.jpg?raw=true)
 
@@ -83,14 +81,14 @@
 11. descendingIterator(): 덱의 뒤쪽부터 순차적으로 실행되는 이터레이터(iterator)를 얻어옴
 ```
 
-![메소드요약]()
+![메소드요약](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Material%20Structure/%EB%A9%94%EC%86%8C%EB%93%9C%EC%9A%94%EC%95%BD.png)
 
 
 
 ### 3. 구현방법(java)
 
   
-![데크계층]()
+![데크계층](https://github.com/merryminaa/GENERAL-STUDY/blob/master/capture/Material%20Structure/%EB%8D%B0%ED%81%AC%EA%B3%84%EC%B8%B5.png)
 
 * 구조적으로 Queue의 기능을 양방향으로 확장한 개념이므로, Queue 인터페이스를 상속받아서 구현
 * Deque 인터페이스
